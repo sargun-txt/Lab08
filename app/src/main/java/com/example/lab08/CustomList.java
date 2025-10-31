@@ -22,6 +22,10 @@ public class CustomList {
         return cities.contains(city);
     }
 
+    public void deleteCity(City city) {
+        // Not implemented
+    }
+
     public List<City> getCities() {
         List<City> list = cities;
         Collections.sort(list);
