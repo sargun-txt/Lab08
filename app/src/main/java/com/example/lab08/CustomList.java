@@ -29,6 +29,10 @@ public class CustomList {
         cities.remove(city);
     }
 
+    public int countCities() {
+        return 0;
+    }
+
     public List<City> getCities() {
         List<City> list = cities;
         Collections.sort(list);
