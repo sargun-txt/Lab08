@@ -23,7 +23,10 @@ public class CustomList {
     }
 
     public void deleteCity(City city) {
-        // Not implemented
+        if (!cities.contains(city)) {
+            throw new IllegalArgumentException();
+        }
+        cities.remove(city);
     }
 
     public List<City> getCities() {
